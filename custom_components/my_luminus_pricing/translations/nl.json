@@ -59,6 +59,24 @@
 	  },
 	  "singleDay": { 
 		"name": "Enkelvoudige meter dag" 
+	  },
+	  "peak": { 
+		"name": "Piekuren" 
+	  },
+	  "offPeak": { 
+		"name": "Daluren" 
+	  },
+	  "superOffPeak": { 
+		"name": "Super-Daluren" 
+	  },
+	  "injectionPeak": { 
+		"name": "Piekuren Injectie" 
+	  },
+	  "injectionOffPeak": { 
+		"name": "Daluren Injectie" 
+	  },
+	  "injectionSuperOffPeak": { 
+		"name": "Super-Daluren Injectie" 
 	  }
 	}
   }
