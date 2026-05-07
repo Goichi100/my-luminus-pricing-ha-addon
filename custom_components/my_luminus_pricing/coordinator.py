@@ -72,9 +72,9 @@ class LuminusCoordinator(DataUpdateCoordinator):
                 meterDetails = await self.hass.async_add_executor_job(self.api.get_meter, eanNr)
                 if not meterDetails is None:
                     pname = meterDetails['productName']
-                    prices = meterDetails['prices']
+                    # prices = meterDetails['prices']
                     meterType = meterDetails['activeMeterType']
-                    meterPrices = prices[meterType]
+                    meterPrices = meterDetails['seasonalPrices']
                     device = {
                         'device_id': eanNr,
                         'device_name': pname + ' (' + eanNr + ')',
