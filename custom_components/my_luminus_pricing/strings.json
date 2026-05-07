@@ -59,6 +59,24 @@
 	  },
 	  "singleDay": { 
 		"name": "Single day" 
+	  },
+	  "peak": { 
+		"name": "Peak" 
+	  },
+	  "offPeak": { 
+		"name": "Offpeak" 
+	  },
+	  "superOffPeak": { 
+		"name": "Super Offpeak" 
+	  },
+	  "injectionPeak": { 
+		"name": "Peak Injection" 
+	  },
+	  "injectionOffPeak": { 
+		"name": "Offpeak Injection" 
+	  },
+	  "injectionSuperOffPeak": { 
+		"name": "Super Offpeak Injection" 
 	  }
 	}
   }
